@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 import pyltp 
 import os
-LTP_DATA_DIR = '/Users/chizhu/data/ltp_data_v3.4.0'  # ltp模型目录的路径
-
-
+# LTP_DATA_DIR = '/Users/chizhu/data/ltp_data_v3.4.0'  # ltp模型目录的路径 E:\ltp\3.4.0\ltp_data_v3.4.0\ltp_data_v3.4.0
+LTP_DATA_DIR = 'E:/ltp/3.4.0/ltp_data_v3.4.0/ltp_data_v3.4.0'
+# LTP_DATA_DIR = 'E:\ltp\3.4.0\ltp_data_v3.4.0\ltp_data_v3.4.0'
 def cut_words(words):
     segmentor = pyltp.Segmentor()
     seg_model_path = os.path.join(LTP_DATA_DIR, 'cws.model')
