@@ -41,7 +41,7 @@
 
 系统整体流程图：
 
-![流程](https://github.com/hannahluo0328/KGrobot/blob/master/流程图.png)
+![流程](https://github.com/hannahluo0328/KGrobot/blob/master/flowChart.png)
 
 网站示例:<br>
 欢迎界面
@@ -50,8 +50,8 @@
 
 主界面
 
-![界面](https://github.com/channahluo0328/KGrobot/blob/master/2.png)
+![界面](https://github.com/hannahluo0328/KGrobot/blob/master/2.png)
 
-![界面](https://github.com/channahluo0328/KGrobot/blob/master/3.png)
+![界面](https://github.com/hannahluo0328/KGrobot/blob/master/3.png)
 
 
