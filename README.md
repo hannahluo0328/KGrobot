@@ -1,4 +1,4 @@
-# KGQA_HLM
+# KGQA_robot
 基于知识图谱的机器人专利术语关系可视化及问答系统
 
 [![Project](https://img.shields.io/badge/project-KGQA_HLM-orange.svg)](https://github.com/chizhu/KGQA_HLM)
@@ -8,7 +8,8 @@
 [![Lisence](https://img.shields.io/badge/lisence-Anti996-blue.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
 
 
-* ~~详情请见 [http://chizhunlp.com](http://111.230.92.110/)~~
+* ~~详情请见 [https://github.com/hannahluo0328/KGrobot](https://github.com/hannahluo0328/KGrobot/blob/master/README.md)~~
+
 
 文件树:<br>
 1)  app.py是整个系统的主入口<br>
@@ -40,21 +41,17 @@
 
 系统整体流程图：
 
-![流程](https://github.com/chizhu/KGQA_HLM/blob/master/%E5%9B%BE%E7%89%87%201.png)
+![流程](https://github.com/hannahluo0328/KGrobot/blob/master/流程图.png)
 
 网站示例:<br>
 欢迎界面
 
-![欢迎界面](https://github.com/chizhu/KGQA_HLM/blob/master/1.png)
+![欢迎界面](https://github.com/hannahluo0328/KGrobot/blob/master/1.png)
 
 主界面
 
-![界面](https://github.com/chizhu/KGQA_HLM/blob/master/2.png)
+![界面](https://github.com/channahluo0328/KGrobot/blob/master/2.png)
 
-![界面](https://github.com/chizhu/KGQA_HLM/blob/master/3.png)
+![界面](https://github.com/channahluo0328/KGrobot/blob/master/3.png)
 
-![界面](https://github.com/chizhu/KGQA_HLM/blob/master/4.png)
 
-![界面](https://github.com/chizhu/KGQA_HLM/blob/master/5.png)
-
-![界面](https://github.com/chizhu/KGQA_HLM/blob/master/6.png)
