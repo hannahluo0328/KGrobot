@@ -1,8 +1,9 @@
 import codecs
 import json
 with open('./spider/json/data.json', encoding='utf-8')as f:
+# with open('../static/data1.json', encoding='utf-8')as f:
     data = json.load(f)
-
+# print(data)
 def get_profile(name):
     s=''
     for i in data[name]:
@@ -10,4 +11,5 @@ def get_profile(name):
         <dd class = \"basicInfo-item value\" >"+str(data[name][i])+"</dd >"
         s+=st
     return s
+
 

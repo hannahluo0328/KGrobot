@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-# coding:utf8
+# coding:utf-8
 
 from urllib import request
 from urllib.parse import quote
@@ -10,8 +10,8 @@ from bs4 import BeautifulSoup
 import codecs
 from get_character_array import get_character
 import os
-if not os.path.exists("./spider/images"):
-		os.mkdir("./spider/images")
+if not os.path.exists("../spider/images"):
+		os.mkdir("../spider/images")
 
 headers = {}
 headers["User-Agent"] = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36"
@@ -46,5 +46,5 @@ def get_json(character_arr):
 	f.write(json.dumps(data,  ensure_ascii=False))
 if __name__ == "__main__":
 	character_arr=get_character()
-	os.chdir(os.path.join(os.getcwd(), './spider/images'))
+	os.chdir(os.path.join(os.getcwd(), '../spider/images'))
 	get_json(character_arr)

@@ -19,7 +19,9 @@
      |-all_relation.html 所有机器人专利术语关系页面<br>
      |-KGQA.html 机器人专利术语关系问答页面<br>
 3)  static文件夹存放css和js，是页面的样式和效果的文件<br>
+
 4)  raw_data文件夹是存在数据处理后的三元组文件<br>
+
 5)  neo_db文件夹是知识图谱构建模块<br>
      |-config.py 配置参数<br>
      |-create_graph.py 创建知识图谱，图数据库的建立<br>
@@ -54,4 +56,4 @@
 
 ![界面](https://github.com/hannahluo0328/KGrobot/blob/master/3.png)
 
-
+          
